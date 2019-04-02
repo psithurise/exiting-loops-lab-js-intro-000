@@ -19,7 +19,7 @@ function keepGoing(arr, cValue, sValue) {
 }
 
 function findBy(arr, fn) {
-  if(arr.indexOf(fn) !== -1)
+  if(fn in arr)
     return fn
   else
     return null
