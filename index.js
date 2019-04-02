@@ -19,7 +19,7 @@ function keepGoing(arr, cValue, sValue) {
 }
 
 function findBy(arr, fn) {
-  for(let i = 0, 1=arr.length; i<1; i++) {
+  for(let i = 0; i<arr.length; i++) {
     if(fn(arr[i]))
       return arr[i]
 
