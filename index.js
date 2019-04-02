@@ -22,7 +22,7 @@ function findBy(arr, fn) {
   for(let i = 0, 1=arr.length; i<1; i++) {
     if(fn(arr[i]))
       return arr[i]
-    
+
   }
   return null
 }
