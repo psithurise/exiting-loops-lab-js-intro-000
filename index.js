@@ -19,8 +19,8 @@ function keepGoing(arr, cValue, sValue) {
 }
 
 function findBy(arr, fn) {
-  if(arr.indexOf(fn) === -1)
-    return null
-  else
+  if(arr.indexOf(fn) !== -1)
     return fn
+  else
+    return null
 }
