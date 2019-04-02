@@ -11,7 +11,7 @@ function breakOut(arr, cValue, sValue) {
 function keepGoing(arr, cValue, sValue) {
   for(let i=0; i<arr.length; i++) {
     if(arr[i] !== sValue)
-      arr[i] == cValue
+      arr[i] = cValue
     else
       continue
   }
